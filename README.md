@@ -90,7 +90,6 @@ O script acessa diretamente as páginas HTML públicas do GitHub (sem autentica�
 
 **Victor Gabriel**  
 · [victorgabriel.dev](https://victorgabriel.dev)  
-· [victorgabriel.dev.br](https://victorgabriel.dev.br)  
 · GitHub: [github.com/VictorGabriel7Dev](https://github.com/VictorGabriel7Dev)  
 · LinkedIn: [in/victorgabriel-dev](https://www.linkedin.com/in/victorgabriel-dev)  
 · Discord: `@VictorGabriel.dev`  
@@ -203,7 +202,6 @@ The script fetches the public HTML pages of GitHub directly (no authentication) 
 
 **Victor Gabriel**  
 · [victorgabriel.dev](https://victorgabriel.dev)  
-· [victorgabriel.dev.br](https://victorgabriel.dev.br)  
 · GitHub: [github.com/VictorGabriel7Dev](https://github.com/VictorGabriel7Dev)  
 · LinkedIn: [in/victorgabriel-dev](https://www.linkedin.com/in/victorgabriel-dev)  
 · Discord: `@VictorGabriel.dev`  

@@ -2,7 +2,7 @@
 # https://github.com/VictorGabriel7Dev/webscraper-github-user
 # https://victorgabriel.dev/projetos/webscraper-github-user
 # SPDX-License-Identifier: AGPL-3.0-or-later
-# Vesion: 1.01
+# Version: 1.01
 #
 # Author: Victor Gabriel
 # Site: https://victorgabriel.dev

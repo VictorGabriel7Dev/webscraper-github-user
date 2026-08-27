@@ -4,7 +4,7 @@
 
 ![Python 3.8+](https://img.shields.io/badge/-Python%203.8+-2ea44f?style=flat&logo=python&logoColor=white) ![Zero dependências](https://img.shields.io/badge/-Zero%20depend%C3%AAncias-1f9bcf?style=flat) ![AGPL-3.0](https://img.shields.io/badge/-AGPL--3.0-dfb317?style=flat) ![Web Scraping](https://img.shields.io/badge/-Web%20Scraping-555555?style=flat) ![CLI](https://img.shields.io/badge/-CLI-555555?style=flat&logo=gnubash&logoColor=white)
 
-Exibe os repositórios favoritados (★) e a lista de usuários seguidos de qualquer perfil do GitHub, direto no terminal - sem token, sem API, sem dependências externas.
+Exibe os repositórios favoritados (★) e a lista de usuários seguidos de qualquer perfil do GitHub, direto no terminal, sem token, sem API, sem dependências externas.
 
 ---
 
@@ -16,7 +16,7 @@ Exibe os repositórios favoritados (★) e a lista de usuários seguidos de qual
   Target → github.com/torvalds
 ────────────────────────────────────────────────────────────
 
-  ★  Starred repositories - torvalds
+  ★  Starred repositories: torvalds
   ··················································
      1.  torvalds/linux
          The Linux kernel
@@ -26,7 +26,7 @@ Exibe os repositórios favoritados (★) e a lista de usuários seguidos de qual
 
   ✔  Total starred repositories: 42
 
-  ★  Following - torvalds
+  ★  Following: torvalds
   ··················································
      1.  gregkh        https://github.com/gregkh
      2.  davem330      https://github.com/davem330
@@ -58,7 +58,7 @@ O nome do usuário é recebido como argumento. O `@` é opcional.
 ## Requisitos
 
 * Python 3.8 ou superior
-* Sem dependências externas - usa apenas a biblioteca padrão (`urllib`, `re`, `html`, `sys`)
+* Sem dependências externas, usa apenas a biblioteca padrão (`urllib`, `re`, `html`, `sys`)
 
 ---
 
@@ -117,7 +117,7 @@ Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 # webscraper-github-user
 
 A python script for Web Scrapping GitHub Users.  
-Lists starred repositories (★) and followed users from any public GitHub profile, directly in the terminal - no token, no API, no external dependencies.
+Lists starred repositories (★) and followed users from any public GitHub profile, directly in the terminal, no token, no API, no external dependencies.
 
 ---
 
@@ -129,7 +129,7 @@ Lists starred repositories (★) and followed users from any public GitHub profi
   Target → github.com/torvalds
 ────────────────────────────────────────────────────────────
 
-  ★  Starred repositories - torvalds
+  ★  Starred repositories: torvalds
   ··················································
      1.  torvalds/linux
          The Linux kernel
@@ -139,7 +139,7 @@ Lists starred repositories (★) and followed users from any public GitHub profi
 
   ✔  Total starred repositories: 42
 
-  ★  Following - torvalds
+  ★  Following: torvalds
   ··················································
      1.  gregkh        https://github.com/gregkh
      2.  davem330      https://github.com/davem330
@@ -171,7 +171,7 @@ The username is received as argument. The `@` prefix is optional.
 ## Requirements
 
 * Python 3.8 or higher
-* No external dependencies - uses only the standard library (`urllib`, `re`, `html`, `sys`)
+* No external dependencies, uses only the standard library (`urllib`, `re`, `html`, `sys`)
 
 ---
 

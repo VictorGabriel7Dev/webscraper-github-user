@@ -19,7 +19,7 @@ webscraper-github-user
 ====================
 A python script for Web Scrapping GitHub Users.
 Scrapes a GitHub user's starred repositories and following list
-directly from the GitHub HTML pages - no API token required.
+directly from the GitHub HTML pages, no API token required.
 
 Usage:
     python WebScraper-GitHub-User.py <github_username>
@@ -113,7 +113,7 @@ def summary(label: str, count: int) -> None:
 
 def scrape_stars(username: str) -> int:
     """Yield every starred repo for *username*. Returns total count."""
-    section_header(f"Starred repositories - {username}")
+    section_header(f"Starred repositories: {username}")
 
     url: str = (
         f"https://github.com/{username}"
@@ -125,7 +125,7 @@ def scrape_stars(username: str) -> int:
     while url:
         if url in visited_pages:
             print(
-                f"{Colour.GREY}  ↩  Duplicate page detected - stopping.{Colour.RESET}"
+                f"{Colour.GREY}  ↩  Duplicate page detected, stopping.{Colour.RESET}"
             )
             break
         visited_pages.add(url)
@@ -220,7 +220,7 @@ def _print_star(index: int, repo: str, desc: str) -> None:
 
 def scrape_following(username: str) -> int:
     """Print every account that *username* follows. Returns total count."""
-    section_header(f"Following - {username}")
+    section_header(f"Following: {username}")
 
     url: str = f"https://github.com/{username}?tab=following"
     visited_pages: set[str] = set()
@@ -230,7 +230,7 @@ def scrape_following(username: str) -> int:
     while url:
         if url in visited_pages:
             print(
-                f"{Colour.GREY}  ↩  Duplicate page detected - stopping.{Colour.RESET}"
+                f"{Colour.GREY}  ↩  Duplicate page detected, stopping.{Colour.RESET}"
             )
             break
         visited_pages.add(url)

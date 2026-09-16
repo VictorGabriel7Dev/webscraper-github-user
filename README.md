@@ -43,18 +43,6 @@ Exibe os repositórios favoritados (★) e a lista de usuários seguidos de qual
 
 ---
 
-## Uso
-
-```
-python WebScraper-GitHub-User.py <usuário>
-python WebScraper-GitHub-User.py torvalds
-python WebScraper-GitHub-User.py @VictorGabriel7Dev   # o @ é aceito e ignorado
-```
-
-O nome do usuário é recebido como argumento. O `@` é opcional.
-
----
-
 ## Requisitos
 
 * Python 3.8 ou superior
@@ -71,6 +59,18 @@ python WebScraper-GitHub-User.py torvalds
 ```
 
 Nenhum `pip install` necessário.
+
+---
+
+## Uso
+
+```
+python WebScraper-GitHub-User.py <usuário>
+python WebScraper-GitHub-User.py torvalds
+python WebScraper-GitHub-User.py @VictorGabriel7Dev   # o @ é aceito e ignorado
+```
+
+O nome do usuário é recebido como argumento. O `@` é opcional.
 
 ---
 
@@ -157,18 +157,6 @@ Lists starred repositories (★) and followed users from any public GitHub profi
 
 ---
 
-## Usage
-
-```
-python WebScraper-GitHub-User.py <username>
-python WebScraper-GitHub-User.py torvalds
-python WebScraper-GitHub-User.py @VictorGabriel7Dev   # @ prefix is accepted and ignored
-```
-
-The username is received as argument. The `@` prefix is optional.
-
----
-
 ## Requirements
 
 * Python 3.8 or higher
@@ -185,6 +173,18 @@ python WebScraper-GitHub-User.py torvalds
 ```
 
 No `pip install` required.
+
+---
+
+## Usage
+
+```
+python WebScraper-GitHub-User.py <username>
+python WebScraper-GitHub-User.py torvalds
+python WebScraper-GitHub-User.py @VictorGabriel7Dev   # @ prefix is accepted and ignored
+```
+
+The username is received as argument. The `@` prefix is optional.
 
 ---
 
